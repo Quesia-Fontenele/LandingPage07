@@ -4,6 +4,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+
 }
 .section {
 
@@ -74,6 +75,8 @@ section{
 #banner{
     display: flex;
     width: 100vw;
+    margin-bottom: 10vh;
+    height: 60vh;
 }
 #texts{
     position: absolute;
@@ -121,4 +124,60 @@ section{
 }
 #search input::placeholder{
     padding-left: 1vw;
+}
+#segundaparte{
+    background-color: rgba(128, 128, 128, 0.397);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+}
+#parte1 {
+
+
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#titulos{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+#titulos p{
+    text-align: justify;
+    margin-bottom: 2vh;
+}
+#titulos h4{
+    color: orangered;
+    margin-bottom: 2vh;
+}
+#divisores{
+    display: flex;
+    justify-content: space-between;
+}
+#divisores span{
+    color: orangered;
+}
+#form{
+    background-color: orangered;
+    width: 30vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form input{
+    width: 15vw;
+    height: 5vh;
+}
+#form button{
+   
+    width: 15vw;
+    height: 5vh;
 }
